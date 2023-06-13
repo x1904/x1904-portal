@@ -24,7 +24,6 @@ const Jobs: React.FC = () => {
             <h1 className="w-full text-3xl font-bold" onClick={toggleListVisibility}>
                 <hr className="wborder-gray-300 my-4"/>Jobs
             </h1>
-            {/* <hr className="border-gray-300 my-4" /> */}
             <div className="relative grid place-items-center w-full" >
                 {isListVisible && data.jobs.map(job => (
                     <div key={job.title} className='m-auto min-w-full'>
