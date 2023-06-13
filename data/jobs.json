@@ -1,0 +1,37 @@
+{"jobs" : [
+    {
+        "title": "Webrtc developer,",
+        "society": "Lemon",
+        "logo": "/logo-lemon.jpeg",
+        "period": "Octobre 2021 - Today",
+        "details": "Designed a high-performance Select Forward Unit (SFU) from scratch using Golang. This involved understanding the Webrtc stack, comprehending the protocols used, and either rewriting them or utilizing external libraries such as OpenSSL's libssl and libcrypto, or libsrtp. In the case of using libsrtp, it was necessary to create wrappers with cgo and manage memory."
+    },
+    {
+        "title": "Software Development Engineer",
+        "society": "Stormshield",
+        "logo": "/logo-stromshield.jpeg",
+        "period": "September 2020 - Aujust 2021",
+        "details": "Maintained various firewalls, implemented static code analysis tools to detect potential issues and resolve them, automated tasks."
+    },
+    {
+        "title": "Systems and Networks Development Engineer",
+        "society": "eho.link",
+        "logo": "/logo-eho.jpeg",
+        "period": "August 2018 - October 2019",
+        "details": "Developed and maintained firewalls for Small or Medium Enterprises, creating new functionalities and resolving existing issues. Worked extensively on DHCPv4 and v6 protocols, including creating network packets to test the firewall appliance. Faced various challenges presented by the lead developer (a senior expert) and their colleague (another senior expert). Unfortunately, I had to stop due to COVID and my desire to continue working remotely - an incredible experience.  C (userland)"
+    },
+    {
+      "title": "Software designer",
+      "society": "CapGemini",
+      "logo": "/logo-cap.jpeg",
+      "period": "August 2018 - October 2019",
+      "details": "Renovation of a Control Command System - Reverse-engineered various modules (a set of executables) using source code and executables to create specifications documentation. Rewrote these modules in C++"
+    },
+    {
+      "title": "Software development internship",
+      "society": "CapGemini",
+      "logo": "/logo-cap.jpeg",
+      "period": "Junuary 2018 - July 2018",
+      "details": "Renovation of a Control Command System - Internship Subject: Developing a bidirectional conversion system between a CISAM and SQL database. The software currently runs only on the DR Concurrent DOS operating system released in 1987. As the hardware components become scarce, there is a need to port the software to modern 64-bit operating systems.-The project required understanding the data structures of the legacy database and its functionalities in order to:--Design the new database using PostgreSQL (requiring an ACID-compliant database). -Design Data Access Objects (DAOs) to interact with the database with c++."
+    }
+]}

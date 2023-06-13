@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* background-color: #e4e9d5; */
+  /* color: black; */
+  --background-red: #fe0000;
+  --background-lightmode: #d3d7c7;
+  --foreground-lightmode: #313334;
+
+  --background-darkmode: #313334;
+  --foreground-darkmode: #e4e9d5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 250, 250, 250;
+    --background-darkmode: #313334;
+    --background-red: #fe0000;
+  }
+}
+
+.dark-mode, body {
+  background-color: var(--background-darkmode);
+  color: var(--foreground-darkmode);
+}
