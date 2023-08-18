@@ -24,16 +24,17 @@ export default function Home() {
           ...GM&nbsp;
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-        < Link href="/">By{' '}
-            <Image
-            style={{border:"1px solid grey",borderRadius:'5em'}}
-              src="/avatar.jpg"
-              alt="PFP"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
+        < Link href="/">
+          <Image
+              style={{border:"1px solid grey",borderRadius:'10em'}}
+                src="/avatar.png"
+                alt="DeMesh"
+                className="dark:invert"
+                width={150}
+                height={24}
+                priority
+              />
+              <span className='block text-center w-full'>By:DeMesh</span>
           </Link>
         </div>
       </div>
