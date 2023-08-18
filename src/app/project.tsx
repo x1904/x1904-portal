@@ -8,7 +8,7 @@ export interface projectProps {
 }
 
 
-const Project: React.FC<{props:projectProps}> = ({title, description, link}) => {
+const Project: React.FC<projectProps> = ({title, description, link}) => {
     const containerStyle = {
         margin: "2%",
         width: "100%"
