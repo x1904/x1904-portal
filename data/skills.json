@@ -2,6 +2,14 @@
     "ASM",
     "C",
     "Golang",
+    "Bash",
     "WebRTC",
-    "Bash"
+    "Network",
+    "System programming",
+    "Memory algo",
+    "Packer",
+    "Self-replication",
+    "Binary exploitation",
+    "ELF/Mach-O format",
+    "Malware code"
 ]}

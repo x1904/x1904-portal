@@ -33,5 +33,12 @@
       "logo": "/logo-cap.jpeg",
       "period": "Junuary 2018 - July 2018",
       "details": "Renovation of a Control Command System - Internship Subject: Developing a bidirectional conversion system between a CISAM and SQL database. The software currently runs only on the DR Concurrent DOS operating system released in 1987. As the hardware components become scarce, there is a need to port the software to modern 64-bit operating systems.-The project required understanding the data structures of the legacy database and its functionalities in order to:--Design the new database using PostgreSQL (requiring an ACID-compliant database). -Design Data Access Objects (DAOs) to interact with the database with c++."
+    },
+    {
+      "title": "IT and telecommunications systems technician",
+      "society": "Marine Nationale",
+      "logo": "",
+      "period": "Junuary 2009 - July 2016",
+      "details": "Telephony:\n  -Management of PABX telephone exchanges\n  -Digital and analog line management\nRadio:\n  -Configuration and setup of radio equipment for radio links (HF/VHF/UHF)\n  -Maintenance of equipment\n  -Configuration and use of INMARSAT/TVSATCOM\nComputer Science:System and network administrator\n  -RedHat and Windows 2008 servers\n  -Router administration and network cabinet management\n  -User account management\n  -Management and assignment of user rights on the file server (SAMBA & Windows Sharing)\n  -Installation of IPCop firewall and Centreon monitoring software\n  -Development of a web interface for personnel management\n  -Preparation of technical and user documentation\n  -Webmaster\n  -Information management\n  -Creation and implementation of scripts for task automation\n  -Management and renewal of the computer equipment\n  -All types of computer troubleshooting"
     }
 ]}
