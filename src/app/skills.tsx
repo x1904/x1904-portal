@@ -27,7 +27,7 @@ const Jobs: React.FC = () => {
                         <div
                             className={`text-center mb-3 text-2xl font-semibold`}
                             >
-                            <h2 className={`m-0 max-w-[60ch] text-xl opacity-50`}>{skill}</h2>
+                            <h2 className={`m-0 max-w-[60ch] text-xl`}>{skill}</h2>
                         </div>
                     </div>
                 ))}
