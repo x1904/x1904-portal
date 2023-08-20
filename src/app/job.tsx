@@ -40,8 +40,9 @@ const Job: React.FC<{job:JobInterface}> = ({
                 </div>
             </div >
             <h2 className={`text-1xl font-semibold`}>{title}</h2>
-            
-            <p>{details}</p>
+            {details.split("\n").map(detail=>(
+                <p>{detail}</p>
+            ))}
         </div>
     )
 }

@@ -18,9 +18,9 @@ export default function Home() {
     // }
   }, []);
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-      <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:p-4 lg:dark:bg-zinc-800/30">
+    <main className="flex min-h-screen font-mono flex-col items-center justify-between mb-48 lg:my-4 px-4 md:px-18 lg:px-24">
+      <div className="mt-16 lg:mt-0 z-10 w-full items-center justify-between text-sm lg:flex">
+        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:p-4 lg:dark:bg-zinc-800/30">
           ...GM&nbsp;
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
@@ -34,11 +34,10 @@ export default function Home() {
                 height={24}
                 priority
               />
-              <span className='block text-center w-full'>By:DeMesh</span>
+              <span className='block text-center w-full text-gray-800 lg:text-gray-200'>By:DeMesh</span>
           </Link>
         </div>
       </div>
-
       <Jobs />
       <Skills />
     </main>

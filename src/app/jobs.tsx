@@ -20,9 +20,11 @@ const Jobs: React.FC = () => {
         setListVisible(!isListVisible);
       };
     return (
-        <div className="w-full">
-            <h1 className="w-full text-3xl font-bold" onClick={toggleListVisibility}>
-                <hr className="wborder-gray-300 my-4"/>Jobs
+        <div className="my-8 lg:my-2 w-full">
+            <h1 className="w-full text-3xl font-bold text-center" onClick={toggleListVisibility}>
+                {/* <h3 className="underline border-blue-400">Jobs</h3> */}
+                Jobs
+                <div className="my-4 mx-8 bg-blue-400 h-1"></div>
             </h1>
             <div className="relative grid place-items-center w-full" >
                 {isListVisible && data.jobs.map(job => (
