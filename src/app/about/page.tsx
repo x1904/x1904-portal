@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import Jobs from '../jobs'
 import Skills from '../skills'
+import Formations from '../formations'
 import { useEffect } from 'react';
 import '../globals.css'
 import Link from 'next/link';
@@ -40,6 +41,7 @@ export default function Home() {
       </div>
       <Jobs />
       <Skills />
+      <Formations />
     </main>
   )
 }
