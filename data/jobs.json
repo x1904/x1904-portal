@@ -37,7 +37,7 @@
     {
       "title": "IT and telecommunications systems technician",
       "society": "Marine Nationale",
-      "logo": "",
+      "logo": "/logo-mn.png",
       "period": "Junuary 2009 - July 2016",
       "details": "Telephony:\n  -Management of PABX telephone exchanges\n  -Digital and analog line management\nRadio:\n  -Configuration and setup of radio equipment for radio links (HF/VHF/UHF)\n  -Maintenance of equipment\n  -Configuration and use of INMARSAT/TVSATCOM\nComputer Science:System and network administrator\n  -RedHat and Windows 2008 servers\n  -Router administration and network cabinet management\n  -User account management\n  -Management and assignment of user rights on the file server (SAMBA & Windows Sharing)\n  -Installation of IPCop firewall and Centreon monitoring software\n  -Development of a web interface for personnel management\n  -Preparation of technical and user documentation\n  -Webmaster\n  -Information management\n  -Creation and implementation of scripts for task automation\n  -Management and renewal of the computer equipment\n  -All types of computer troubleshooting"
     }
