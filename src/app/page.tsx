@@ -44,7 +44,7 @@ export default function Home() {
       
         
       {/* <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full  after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 before:lg:h-[360px]"> */}
-        <Project title="mesh" description="create a decentralize space" link="https://mesh.1904.app" logo="/mesh-icon.png"/>
+        <Project title="mesh" description="create a decentralize space" link="https://mesh.demesh.xyz" logo="/mesh-icon.png"/>
       {/* </div> */}
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4">
