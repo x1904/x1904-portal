@@ -46,7 +46,7 @@ export default function Home({params: {lang}}) {
                 height={24}
                 priority
               />
-              <span className='block text-center w-full text-gray-800 lg:text-gray-200'>By:DeMesh</span>
+              <span className='block text-center w-full text-gray-200'>By:DeMesh</span>
           </Link>
         </div>
       </div>
