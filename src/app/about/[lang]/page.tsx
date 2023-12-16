@@ -1,19 +1,19 @@
 'use client'
 import Image from 'next/image'
-import Jobs from '../jobs'
-import About from '../about'
-import Skills from '../skills'
-import Formations from '../formations'
-import aboutData from '../../../data/about.json';
-import AboutsInterface, {AboutInterface} from '../aboutinterface';
+import Jobs from '../../jobs'
+import About from '../../about'
+import Skills from '../../skills'
+import Formations from '../../formations'
+import aboutData from '../../../../data/about.json';
+import AboutsInterface, {AboutInterface} from '../../aboutinterface';
 
 
 import { useEffect } from 'react';
 // import { useRouter } from 'next/router';
-import '../globals.css';
+import '../../globals.css';
 import Link from 'next/link';
 
-export default function Home() {
+export default function Home({params: {lang}}) {
   // const router = useRouter()
   // useEffect(() => {
   //   // Vérifier si le navigateur prend en charge le mode sombre
@@ -26,6 +26,7 @@ export default function Home() {
   //   // }
   // }, []);
   const data: AboutsInterface = aboutData
+  const dataLang: AboutInterface = data.abouts.filter((e)=> e.lang == lang)[0]
   
   
   return (
@@ -49,11 +50,9 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      {/* <p>{lang}</p> */}
-      <About {...data.abouts[1]}/>
-      {/* <Jobs />
-      <Skills />
-      <Formations /> */}
+      <About {...dataLang}/>
+      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4">
+      </div>
     </main>
   )
 }

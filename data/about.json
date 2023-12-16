@@ -1,0 +1,74 @@
+{
+    "abouts": [
+        {
+            "lang": "fr",
+            "intro": [
+                "Ayant consacré huit années aux systèmes d'information et de télécommunications au sein de la Marine Nationale, j'ai principalement exercé en tant qu'administrateur système et réseaux. Ces huit années se sont scindées en deux parties distinctes : la première en mer à bord d'un navire de guerre, totalisant plus de 800 jours en mer, dont plus de 360 en opération dans l'océan Indien, découvrant ainsi plus de 20 pays. La seconde partie, plus calme, s'est déroulée à la préfecture maritime méditerranéenne.",
+                "Souhaitant approfondir mes compétences en programmation, j'ai intégré l'école 42 à Paris pendant trois ans, optant pour le parcours 'dev system'. J'ai ainsi acquis des compétences variées, telles que recoder '/bin/ls', développer un shell, empaqueter des binaires, détourner le flux d'exécution d'un binaire, et bien plus encore.",
+                "En milieu de cursus, j'ai débuté dans la rétroconception et la conception de logiciels chez Capgemini, avant de travailler sur des firmwares pour des sociétés concevant des pare-feux.",
+                "Depuis deux ans et demi, je me spécialise dans le langage Golang et maîtrise le WebRTC, non seulement sur l'API 'WebRTC: Real-Time Communication in Browsers', mais également sur l'ensemble de la pile de développement, créant un serveur SFU pour relayer les flux audio/vidéo/data en temps réel entre les navigateurs.",
+                "Passionné, je consacre une partie de mon temps libre à explorer de nouveaux langages et frameworks. Au fil des années, j'ai également développé des compétences dans le domaine du web, travaillant avec divers langages tels que HTML, CSS, PHP, JS, NODEJS, REACTJS."
+            ],
+            "skills":[
+                "Administrateur système et réseaux",
+                "Conception et développement de bases de données",
+                "Rétroconception de logiciels",
+                "Rédaction de documentation utilisateur, spécifications et conception",
+                "Développement de systèmes et réseaux",
+                "Développement backend",
+                "Systèmes embarqués",
+                "Communication audio/video en temps réel",
+                "Conception de scripts (Bash, PHP, Python)",
+                "ASM / C / C++ / Golang / Python",
+                "Conception d'architectures pour répondre à des solutions",
+                "Potentiel pour prétendre au développement full-stack (besoin de travailler la partie UX/UI)"
+            ],
+            "soft_skills":[
+                "Rigueur",
+                "Adaptabilité",
+                "Curiosité",
+                "Motivation",
+                "Persévérance",
+                "Éthique professionnelle"
+            ],
+            "conclusion":[
+                "Si vous souhaitez collaborer ou discuter d'un projet, je suis disponible pour répondre à vos besoins et vous satisfaire."
+            ]
+        },
+        {
+            "lang": "en",
+            "intro": [
+                "Hello! I am passionate about information systems and telecommunications, with a solid 8-year experience in the French Navy. During this time, I primarily worked as a system and network administrator. My journey is divided into two parts: an adventurous stint aboard a warship, where I spent over 800 days at sea, including 360 in operations in the Indian Ocean, exploring more than 20 countries. Then, a calmer period at the Mediterranean maritime prefecture.",
+                "Eager to deepen my coding skills, I pursued a 3-year course at Ecole 42 in Paris, opting for the 'dev system' track. I acquired skills such as recoding /bin/ls, creating a shell, packaging binaries, redirecting the execution flow of a binary, and much more. Midway through my studies, I started working in software reverse engineering and design at Capgemini before specializing in firmware development for firewall companies.",
+                "For the past two and a half years, I've been coding in Golang and specializing in WebRTC, not just on the 'WebRTC: Real-Time Communication in Browsers' API but on the entire development stack, building an SFU server to relay audio/video/data streams in real-time between browsers. In my free time, I enjoy learning new languages or frameworks.",
+                "I haven't touched on the web part yet, but over the years, I've become familiar with many languages like HTML, CSS, PHP, JS, NODEJS, REACTJS. Overall, I am a highly versatile professional."
+                
+            ],
+            "skills":[
+                "System and network administration",
+                "Database design and development",
+                "Software reverse engineering",
+                "Systems and networks development",
+                "Backend development",
+                "Embedded systems",
+                "Real-time audio/video communication",
+                "Scripting (Bash, PHP, Python)",
+                "Assembly / C / C++ / Golang / Python",
+                "Custom architecture design for solutions",
+                "Can claim full-stack development (needs to work on UX/UI)",
+                "User documentation, specifications, and design writing"
+            ],
+            "soft_skills":[
+                "Rigor",
+                "Adaptability",
+                "Curiosity",
+                "Motivation",
+                "Perseverance",
+                "Professional ethics"
+            ],
+            "conclusion":[
+                "If you'd like to collaborate or discuss any of your projects, I'm available to meet your needs and ensure your satisfaction"
+            ]
+        }
+    ]
+}
